@@ -1,11 +1,10 @@
 Histogram histogram = new Histogram();
 int selectedYear = 1990;
 int stepYear = 0;
-PImage photo;
 
 
 void setup() {
-  photo = loadImage("infografik.png");
+  loadBilleder();
   size(1000, 500);
   histogram.loadData();
   clear();
