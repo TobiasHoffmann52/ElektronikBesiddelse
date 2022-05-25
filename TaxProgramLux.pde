@@ -2,15 +2,14 @@ Histogram histogram = new Histogram();
 int selectedYear = 1990;
 int stepYear = 0;
 
-
 void setup() {
   loadBilleder();
   size(1000, 500);
   histogram.loadData();
   clear();
   histogram.display(selectedYear, 5);
+  noStroke();
 }
-
 
 void draw() {
   clear();
