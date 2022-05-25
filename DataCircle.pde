@@ -30,9 +30,9 @@ class DataCircle {
     if (item.equals("Mikroboelgeovn")) {
       image(microwave, x, (420-(420*percentage/100)+40), 0.5 * percentage, 0.5 * percentage);
     }
-    //if (item.equals("Digitalt videokamera (-2021)")) {
-    // image(videoCamera, x, (420-(420*percentage/100)+40), 0.5 * percentage, 0.5 * percentage);
-    // }
+    if (item.equals("Digitalt videokamera (-2021)")) {
+      image(videoCamera, x, (420-(420*percentage/100)+40), 0.5 * percentage, 0.5 * percentage);
+    }
     if (item.equals("Digitalkamera (-2021)")) {
       image(camera, x, (420-(420*percentage/100)+40), 0.5 * percentage, 0.5 * percentage);
     }
