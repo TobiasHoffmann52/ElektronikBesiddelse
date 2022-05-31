@@ -5,8 +5,6 @@ class Elektronik {
   void loadData() {
     Table table = loadTable("elektronik2.csv", "header");
 
-
-
     for (TableRow r : table.rows()) {
       String item            = r.getString("ITEM");
       int year               = r.getInt("TIME");
@@ -21,7 +19,6 @@ class Elektronik {
       }
     }
   }
-
 
 
   void display(int selectedYear) {

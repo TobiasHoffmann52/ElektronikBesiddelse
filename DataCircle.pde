@@ -5,7 +5,6 @@ class DataCircle {
   float percentage;
 
 
-
   DataCircle(String c, int y, float p) {
     item  = c;
     year     = y;
