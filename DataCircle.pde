@@ -12,7 +12,7 @@ class DataCircle {
     percentage = p;
   }
 
-  void display( int x, float scaleFactor) {
+  void display( int x) {
     float scale = 1;
     fill(255);
     textSize(14);

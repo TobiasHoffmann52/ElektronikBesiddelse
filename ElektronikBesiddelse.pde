@@ -1,13 +1,13 @@
-Histogram histogram = new Histogram();
+Elektronik elektronik = new Elektronik();
 int selectedYear = 1990;
 int stepYear = 0;
 
 void setup() {
   loadBilleder();
   size(1000, 500);
-  histogram.loadData();
+  elektronik.loadData();
   clear();
-  histogram.display(selectedYear, 5);
+  elektronik.display(selectedYear);
   noStroke();
 }
 
@@ -16,7 +16,7 @@ void draw() {
   if (frameCount%100==0) { 
     selectedYear = selectedYear + stepYear;
   }
-  histogram.display(selectedYear, 5);
+  elektronik.display(selectedYear);
 }
 
 void keyPressed() {

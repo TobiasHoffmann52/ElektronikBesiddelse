@@ -1,4 +1,4 @@
-class Histogram {
+class Elektronik {
 
   HashMap<String, DataCircle> dataList  = new HashMap<String, DataCircle>();
 
@@ -24,7 +24,7 @@ class Histogram {
 
 
 
-  void display(int selectedYear, int scaleFactor) {
+  void display(int selectedYear) {
     //Baggrundsbilledet bliver tegnet
     background(photo);
 
@@ -37,7 +37,7 @@ class Histogram {
     for (String k : dataList.keySet()) {
       DataCircle d = dataList.get(k);
       if (d.year == selectedYear) {
-        d.display( x, scaleFactor);
+        d.display( x);
         x +=50;
       }
     }
