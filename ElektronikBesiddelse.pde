@@ -1,6 +1,5 @@
 Elektronik elektronik = new Elektronik();
 int selectedYear = 1990;
-int stepYear = 0;
 
 void setup() {
   loadBilleder();
