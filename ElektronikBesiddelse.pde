@@ -13,9 +13,6 @@ void setup() {
 
 void draw() {
   clear();
-  if (frameCount%100==0) { 
-    selectedYear = selectedYear + stepYear;
-  }
   elektronik.display(selectedYear);
 }
 

@@ -3,7 +3,7 @@ class Elektronik {
   HashMap<String, DataCircle> dataList  = new HashMap<String, DataCircle>();
 
   void loadData() {
-    Table table = loadTable("elektronik2.csv", "header");
+    Table table = loadTable("elektronik.csv", "header");
 
     for (TableRow r : table.rows()) {
       String item            = r.getString("ITEM");
@@ -34,7 +34,7 @@ class Elektronik {
     for (String k : dataList.keySet()) {
       DataCircle d = dataList.get(k);
       if (d.year == selectedYear) {
-        d.display( x);
+        d.display(x);
         x +=50;
       }
     }
