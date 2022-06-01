@@ -29,7 +29,7 @@ class Elektronik {
     fill(255);
     textSize(25);
     text(selectedYear, 850, 35);
-    int x =50;
+    int x = 50;
     translate(10, 10);
     for (String k : dataList.keySet()) {
       DataCircle d = dataList.get(k);
